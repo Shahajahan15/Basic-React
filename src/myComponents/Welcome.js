@@ -4,7 +4,7 @@ class Welcome extends Component {
 
     render (){
         return(
-           <h1>Hello, I am from class component</h1>
+           <h1>Hello, I am from {this.props.name}</h1>
        );
    }
 }
