@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import Hello from './myComponents/Hello'
 import Welcome from './myComponents/Welcome'
+import Arraw from './myComponents/Arraw'
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
 
         <Hello age="24" name="Tuhin"></Hello>
         <Welcome name="class 1"></Welcome>
+        <Arraw></Arraw>
       </header>
     </div>
   );
