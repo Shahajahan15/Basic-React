@@ -9,12 +9,9 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
+
         <Hello age="24" name="Tuhin"></Hello>
-        <Hello age="20" name="Sagor"></Hello>
-        <Hello age="22" name="Hira"></Hello>
         <Welcome name="class 1"></Welcome>
-        <Welcome name="class 2"></Welcome>
-        <Welcome name="class 3"></Welcome>
       </header>
     </div>
   );
