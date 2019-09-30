@@ -1,17 +1,17 @@
 import React from 'react';
+import '../../node_modules/bootstrap/dist/css/bootstrap.min.css'
 
-function Hello(props){
+function Hello(){
 
-    function DoThis(a){
-        alert(a)
-    }
+    // function DoThis(){
+    //     alert()
+    // }
 
-     return(
-         <div>
-            <button onClick={DoThis.bind(this,'Hello I am parameter from function')}>click me</button>
-            <h1>Name: {props.name} And Age: {props.age}</h1>
-         </div>
-    );
+    return(
+        <div>
+           <button className="btn btn-info">Test Bootstrap</button>
+        </div>
+   );
 }
 
 export default Hello;
