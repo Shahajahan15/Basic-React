@@ -2,14 +2,14 @@ import React,{Component} from 'react';
 
 class Welcome extends Component {
 
-    DoClass() {
-        alert("from class");
+    DoClass(c) {
+        alert(c);
     }
 
     render (){
         return(
             <div>
-                <button onClick={this.DoClass}>class button</button>
+                <button onClick={this.DoClass.bind(this,'I am parameter from class')}>class button</button>
                 <h1>Hello, I am from {this.props.name}</h1>
             </div>
        );
