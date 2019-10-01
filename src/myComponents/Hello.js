@@ -19,7 +19,7 @@ class Hello extends Component{
 
 
    render(){
-      return <div className="text-success">
+      return <div className="text-success pb-2">
           <h1>{this.state.name}</h1>
           <button onClick={this.changeName.bind(this,"Rain")} className="btn btn-info">change name</button>
       </div>
