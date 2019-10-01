@@ -5,6 +5,7 @@ import './App.css';
 // import States from './myComponents/States'
 import Hello from './myComponents/Hello';
 import Conditional1 from './myComponents/Conditional1'
+import Conditional2 from './myComponents/Conditional2'
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         {/* <Arraw></Arraw> */}
         <Hello></Hello>
         <Conditional1></Conditional1>
+        <Conditional2></Conditional2>
       </header>
     </div>
   );
