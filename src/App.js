@@ -1,9 +1,8 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import FindDOMNodes from './myComponents/FindDOMNodes'
-import Refresh from './myComponents/Refresh';
-// import NewDemo from './myComponents/NewDemo';
+import Forms from './myComponents/Forms'
+
 
 
 function App() {
@@ -11,8 +10,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <FindDOMNodes></FindDOMNodes>
-        <Refresh></Refresh>
+        <Forms></Forms>
       </header>
     </div>
   );
