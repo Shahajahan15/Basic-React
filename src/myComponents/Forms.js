@@ -7,13 +7,14 @@ class Forms extends Component {
     constructor (){
         super()
         this.state={
-            Name: "  "
+            username: " "
         }
     }
 
     onChangeHan=(event)=>{
-        var newName = event.target.value;
-        this.setState({name:newName})
+        var myname = event.target.name;
+        var myvalue = event.target.value;
+        this.setState({[myname]:myvalue});
     }
 
     render() {
@@ -21,9 +22,9 @@ class Forms extends Component {
             <div>
                 <form>
                     <p>My first form</p>
-                    <p>{this.state.name}</p>
-                <input onChange={this.onChangeHan} type="text" placeholder="Enter Name"></input>
-                <input type="submit" value="submit"></input>
+                    <p>{this.state.username}</p>
+                    <input name="username" onChange={this.onChangeHan} type="text" placeholder="Enter Name"></input>
+                    <input type="submit" value="submit"></input>
                 </form>
             </div>
         );
