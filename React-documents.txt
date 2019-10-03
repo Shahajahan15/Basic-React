@@ -1,0 +1,11 @@
+
+# 'npx create-react-app Project_name'  to start 
+# 'npm install react-router-dom --save'  to install router dom
+# 'cd .\directory name' to change directory
+# 'npm start' to start project
+# 'import ReactDOM from 'react-dom'; '  to impoert ReactDom
+# 'import { BrowserRouter as Router, Route, Link } from  './node_modules/react-router-dom'; ' to import router dom
+# 'npm run build' to build the project, to hosting
+# 'npm install node-sass' to install sass
+# 'npm install react-bootstrap bootstrap' to install bootstrap
+# 'npm install axios' to send/receive http request on server
