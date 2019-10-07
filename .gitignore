@@ -16,7 +16,6 @@
 config
 description
 HEAD
-src/MyTable.js
 
 
 
