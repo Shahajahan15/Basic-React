@@ -9,7 +9,7 @@ import Son from './ComponentTree/Son';
 function App() {
   return (
     <div className="App">
-      <Son></Son>
+      <Son name="Puti name is Afsana"></Son>
     </div>
   );
 }

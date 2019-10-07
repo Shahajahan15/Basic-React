@@ -5,7 +5,7 @@ class Son extends Component {
     render() {
         return (
             <div>
-                <Nati></Nati>
+                <Nati name={this.props.name}></Nati>
             </div>
         );
     }
